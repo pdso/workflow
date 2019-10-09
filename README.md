@@ -23,8 +23,8 @@ Alfred 4.0.4
 ```
 
 ### 截图
-![IMG_0017](../life/IMG_0017.PNG)
-![IMG_0018](../life/IMG_0018.PNG)
+![IMG_0017](./life/IMG_0017.PNG)
+![IMG_0018](./life/IMG_0018.PNG)
 
 ### 选择后回车可复制
 
