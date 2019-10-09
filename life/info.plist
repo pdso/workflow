@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>pd.swift.life</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>50B0CD10-4D52-4898-9C05-DD3A34A829C3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>78006BFE-6A14-487D-B2FC-434544A46A7A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>78006BFE-6A14-487D-B2FC-434544A46A7A</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>pdso</string>
+	<key>description</key>
+	<string>人生进度条</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>life progress</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>life</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>#
+# Alfred Script Filter JSON format
+#
+# This example demonstrates all fields available for populating results.
+#
+# For an in-depth explanation, use the (?) help button to the bottom left.
+#
+
+cat &lt;&lt; EOB
+{&quot;items&quot;: [
+
+	{
+		&quot;uid&quot;: &quot;desktop&quot;,
+		&quot;type&quot;: &quot;file&quot;,
+		&quot;title&quot;: &quot;Desktop&quot;,
+		&quot;subtitle&quot;: &quot;~/Desktop&quot;,
+		&quot;arg&quot;: &quot;~/Desktop&quot;,
+		&quot;autocomplete&quot;: &quot;Desktop&quot;,
+		&quot;icon&quot;: {
+			&quot;type&quot;: &quot;fileicon&quot;,
+			&quot;path&quot;: &quot;~/Desktop&quot;
+		}
+	},
+
+	{
+		&quot;valid&quot;: false,
+		&quot;uid&quot;: &quot;flickr&quot;,
+		&quot;title&quot;: &quot;Flickr&quot;,
+		&quot;icon&quot;: {
+			&quot;path&quot;: &quot;flickr.png&quot;
+		}
+	},
+
+	{
+		&quot;uid&quot;: &quot;image&quot;,
+		&quot;type&quot;: &quot;file&quot;,
+		&quot;title&quot;: &quot;My holiday photo&quot;,
+		&quot;subtitle&quot;: &quot;~/Pictures/My holiday photo.jpg&quot;,
+		&quot;autocomplete&quot;: &quot;My holiday photo&quot;,
+		&quot;icon&quot;: {
+			&quot;type&quot;: &quot;filetype&quot;,
+			&quot;path&quot;: &quot;public.jpeg&quot;
+		}
+	},
+
+	{
+		&quot;valid&quot;: false,
+		&quot;uid&quot;: &quot;alfredapp&quot;,
+		&quot;title&quot;: &quot;Alfred Website&quot;,
+		&quot;subtitle&quot;: &quot;https://www.alfredapp.com/&quot;,
+		&quot;arg&quot;: &quot;alfredapp.com&quot;,
+		&quot;autocomplete&quot;: &quot;Alfred Website&quot;,
+		&quot;quicklookurl&quot;: &quot;https://www.alfredapp.com/&quot;,
+		&quot;mods&quot;: {
+			&quot;alt&quot;: {
+				&quot;valid&quot;: true,
+				&quot;arg&quot;: &quot;alfredapp.com/powerpack&quot;,
+				&quot;subtitle&quot;: &quot;https://www.alfredapp.com/powerpack/&quot;
+			},
+			&quot;cmd&quot;: {
+				&quot;valid&quot;: true,
+				&quot;arg&quot;: &quot;alfredapp.com/powerpack/buy/&quot;,
+				&quot;subtitle&quot;: &quot;https://www.alfredapp.com/powerpack/buy/&quot;
+			},
+		},
+		&quot;text&quot;: {
+			&quot;copy&quot;: &quot;https://www.alfredapp.com/ (text here to copy)&quot;,
+			&quot;largetype&quot;: &quot;https://www.alfredapp.com/ (text here for large type)&quot;
+		}
+	}
+
+]}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>life.swift</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>人生进度条</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>50B0CD10-4D52-4898-9C05-DD3A34A829C3</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>78006BFE-6A14-487D-B2FC-434544A46A7A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>人生进度条
+Alfred 3 now supports JSON, which is the recommended format. XML is also supported for legacy Alfred 2 workflows, and has been updated to include the new features.
+
+A new option now exists for Script Filters, &quot;Alfred filters results&quot;. This allows you to return a whole list of results, let Alfred do the subsequent filtering with extreme performance. When this option is selected, your script will be called once with no argument.</string>
+	<key>uidata</key>
+	<dict>
+		<key>50B0CD10-4D52-4898-9C05-DD3A34A829C3</key>
+		<dict>
+			<key>note</key>
+			<string>lifeprogress</string>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>65</integer>
+		</dict>
+		<key>78006BFE-6A14-487D-B2FC-434544A46A7A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>65</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/pdso/workflow</string>
+</dict>
+</plist>
