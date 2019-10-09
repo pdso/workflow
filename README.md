@@ -28,5 +28,5 @@ Alfred 4.0.4
 
 ### 选择后回车可复制
 
-###icon来源
+###icon来源  
 [icon](https://pixabay.com/vectors/battery-low-energy-low-battery-2831535/)
