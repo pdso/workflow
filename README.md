@@ -2,10 +2,10 @@
 用swift写下Alfred workflow
 
 ## 人生进度条
-### 运行环境
-macOS Catalina 10.15
-swift 5.1
-Alfred 4.0.4
+### 运行环境   
+macOS Catalina 10.15   
+swift 5.1   
+Alfred 4.0.4   
 
 ### 输入 `life`  查看进度
 
