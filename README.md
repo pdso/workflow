@@ -2,10 +2,10 @@
 用swift写下Alfred workflow
 
 ## 人生进度条
-### 运行环境   
-macOS Catalina 10.15   
-swift 5.1   
-Alfred 4.0.4   
+### 运行环境
+macOS Catalina 10.15
+swift 5.1
+Alfred 4.0.4
 
 ### 输入 `life`  查看进度
 
@@ -23,10 +23,10 @@ Alfred 4.0.4
 ```
 
 ### 截图
-![IMG_0017](./life/IMG_0017.PNG)
-![IMG_0018](./life/IMG_0018.PNG)
+![Imgur](https://i.imgur.com/QVBqoLU.png)
+![Imgur](https://i.imgur.com/KMy49ZL.png)
 
 ### 选择后回车可复制
 
-###icon来源  
+###icon来源
 [icon](https://pixabay.com/vectors/battery-low-energy-low-battery-2831535/)
