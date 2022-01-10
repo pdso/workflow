@@ -2,7 +2,7 @@
 
 用swift写下Alfred workflow
 
-## 人生进度条
+## [人生进度条](https://raw.githubusercontent.com/pdso/workflow/master/chouti/chouti.alfredworkflow)
 
 ### 输入 `life`  查看进度
 
