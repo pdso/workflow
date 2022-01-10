@@ -16,7 +16,6 @@ struct  Entry: Codable {
   let sectionName: String?
 }
 
-let sectionImgUrl = "https://dig.chouti.com/images/logo-c30a1a3941.png"
 let sectionName = "抽屉挂了吗"
 
 var sema = DispatchSemaphore( value: 0 )
@@ -32,7 +31,7 @@ if let url = URL(string: "https://m.chouti.com/api/m/link/hot?afterTime=0") {
                     array.append([
                         "title": entry.title,
                         "subtitle": entry.sectionName ?? sectionName,
-                        "icon": entry.sectionImgUrl ?? sectionImgUrl
+                        "arg": entry.originalUrl
                     ])
                 }
                 
